@@ -2,16 +2,15 @@
 
 | Element  | Definition |
 | -------- | -------    |
-| **Estado Inicial**    |   Matriz do jogo da velha vazia                                                                 |
+| **Initial State**     |   Empty tic-tac-toe matrix  |
 
-| **Estado Objetivo**   | Formar uma sequência de três "X" na horizontal, vertical ou diagonal                            |
+| **Objective State** | Form a sequence of three "X's" horizontally, vertically or diagonally |
 
-| **Função Sucessor**   | Jogadores escolhem um elemento não marcado para marcarem com seu respectivo síbolo ("X" ou "O") |
+| **Successor Function** | Players choose an unmarked element to mark with their respective symbol ("X" or "O") |
 
-| **Custo de Caminho**  | Ganhou o jogo = 1, Perdeu o Jogo = -1, Empatou = 0                                              |
+| **Road Cost** | Won the game = 1, Lost the game = -1, Drawn = 0 |
 
-
-##### **Resumo:**
+##### **Resume:**
 The game starts in a 3x3 matrix and the player's objective is to form a sequence of three identical symbols horizontally, vertically or diagonally before his opponent can do the same. 
 
 Each player can place one symbol across the matrix. 
