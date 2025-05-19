@@ -3,11 +3,8 @@
 | Element  | Definition |
 | -------- | -------    |
 | **Initial State**     |   Empty tic-tac-toe matrix  |
-
 | **Objective State** | Form a sequence of three "X's" horizontally, vertically or diagonally |
-
 | **Successor Function** | Players choose an unmarked element to mark with their respective symbol ("X" or "O") |
-
 | **Road Cost** | Won the game = 1, Lost the game = -1, Drawn = 0 |
 
 ##### **Resume:**
